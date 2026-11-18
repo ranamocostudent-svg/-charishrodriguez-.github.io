@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+.avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0969da;
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin: 0 0 5px 0;
+  font-size: 24px;
+  color: #1f2328;
+}
+
+.course {
+  font-weight: bold;
+  color: #0969da;
+  margin: 0 0 15px 0;
+}
+
+.bio {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0969da;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0550ae;
+}
